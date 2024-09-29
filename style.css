@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	overflow: hidden;
 }
 .full-page
 {
@@ -200,4 +201,38 @@ span
 	margin-top: 500px;
 	position: fixed;
 }
+}
+#text1{
+	width: 100%;
+	display: block;
+	margin-top: 90px;
+	margin-bottom: auto;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+	font-size: 45px;
+	font-weight: 700;
+}
+#text2{
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: 700;
+	color: rgb(0, 0, 62);
+}
+#text3{
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 90px;
+	line-height: 90px;
+	font-size: 30px;
+	font-weight: 700;
 }
